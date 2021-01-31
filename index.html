@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>THE BRICKS - Luka Kosovel</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="application/javascript" src="js/bricks.js"></script>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<script src="js/jQuery.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body onLoad="drawIt()">
+        <div id="title" onClick="drawIt()">
+			<a id="demo" onClick="drawIt()" class="gumbText"></a>
+           <h2> THE BRICKS</h2>
+		</div>
+		
+		<div class ="wrapper">
+			<div class="sidebar">
+				<h3>MENU</h3>
+				<ul>
+					<li><a href="index.html"><i class="fas fa-home">DOMOV</i></a></li>
+					<li><a href="vizitka.html"><i class="fas fa-address-card">VIZITKA</i></a></li>
+				</ul>
+			</div>
+			<div id="container" >
+				<canvas id="canvas" width="500" height="500"></canvas>	
+			</div>
+		</div>
+		
+		<div id="scoreContainer">
+			<div id="score">
+				<a class="score">SCORE:</a>
+			</div>
+			
+			<div id="points">
+				<a><mark id="tocke">0</mark></a>
+				<p>Time: <mark id="cas">00:00</mark></p>
+			</div>
+		</div>
+		
+</body>
+</html>
